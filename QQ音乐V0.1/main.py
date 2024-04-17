@@ -11,7 +11,7 @@ from get_purl import get
 if __name__ == '__main__':
     print('欢迎使用QQ音乐下载工具')
     uin = ''  # qq号
-    qm_keyst = ''  # 从登录cookie中获取
+    qm_keyst = ''  # 从登录cookie中获取 一天有效期
     search = Search(uin=uin, qm_keyst=qm_keyst)
     song_name = input('请输入歌曲名：')
     # 搜索歌曲id与mid
