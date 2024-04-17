@@ -19,13 +19,6 @@ class get:
         }
 
     def get_purl(self, song_mid, song_id, uin):
-        headers = {
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0',
-        }
-        cookies = {
-            'uin': str(uin),
-            'qm_keyst': 'Q_H_L_63k3NxNUv0FEXWWNggRDl_uYTIEneal5m4wM3uHGqksc-UGZRg9bbpCD7aYcXpNwQUJJRYOgO1bMSC7o',
-        }
         album_mid = "000I5jJB3blWeN"
         with open('guid.js', 'r', encoding='utf-8') as f:
             js = f.read()
@@ -41,8 +34,8 @@ class get:
             '_': str(current_time),
             'sign': str(sign),
         }
-        response2 = requests.post('https://u6.y.qq.com/cgi-bin/musics.fcg', params=params, cookies=cookies,
-                                  headers=headers,
+        response2 = requests.post('https://u6.y.qq.com/cgi-bin/musics.fcg', params=params, cookies=self.cookies,
+                                  headers=self.headers,
                                   data=data).text
 
         purl = re.search(r'"purl":"(.*?)"', response2, re.DOTALL).group(1).encode('utf-8').decode('unicode_escape')

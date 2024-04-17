@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17d16b04-2d3c-44ea-9ccf-9c4082c98b9b" name="更改" comment="" />
+    <list default="true" id="17d16b04-2d3c-44ea-9ccf-9c4082c98b9b" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/QQ音乐V0.1/get_purl.py" beforeDir="false" afterPath="$PROJECT_DIR$/QQ音乐V0.1/get_purl.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +15,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2fDNSbFlm1qP5YvyknyOs404QSK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,6 +29,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/pythonProject",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -39,7 +42,11 @@
       <option name="presentableId" value="Default" />
       <updated>1713331689294</updated>
       <workItem from="1713331690460" duration="4000" />
+      <workItem from="1713337082269" duration="195000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
