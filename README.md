@@ -9,7 +9,7 @@
 
 2. 将qm_keyst与uin写入，uin即为QQ号
 
-   ![img.png](QQ音乐V0.1/img/img.png)
+   ![img.png](QQ音乐V0.1/img/img2.png)
 
 3. 启动mian.py，输入歌曲名即可下载
 
