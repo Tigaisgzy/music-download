@@ -10,8 +10,8 @@ from get_purl import get
 
 if __name__ == '__main__':
     print('欢迎使用QQ音乐下载工具')
-    uin = ''  # qq登录的话就写qq号，微信登录的话就去cookie里面的wxuin获取后填入
-    qm_keyst = ''  # 从登录cookie中获取 一天有效期
+    uin = '3552971348'  # qq登录的话就写qq号，微信登录的话就去cookie里面的wxuin获取后填入
+    qm_keyst = 'Q_H_L_63k3Nm6az7p2LEc_w6BHEQCZw3QyAoeUQQAWO_VQmxeFPnT1AQvuN_2mLuLHczgbIChs-bFRzaNoBfbs'  # 从登录cookie中获取 一天有效期
     search = Search(uin=uin, qm_keyst=qm_keyst)
     song_name = input('请输入歌曲名：')
     # 搜索歌曲id与mid
